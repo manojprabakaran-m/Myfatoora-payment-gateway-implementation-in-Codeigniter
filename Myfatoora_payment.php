@@ -1,13 +1,8 @@
-<?php 
-/*
-         Manuigniter
-        WWW.menu.house
-*/
+<?php
 class Myfatoora_payment extends CI_Controller{
  function __construct()
  {
        parent::__construct();
-      $this->load->model('Branches_model');
  }  
  /*
 
